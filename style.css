@@ -1,0 +1,171 @@
+/*--------------------------------------------------------------============================================================
+  
+
+
+/*==============================
+[Table of contents]
+
+
+
+
+=============================================================--------------------------------------------------------------*/
+
+
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #fff;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'HelveticaNeueLight';
+}
+a{
+  text-decoration: none;
+}
+
+/*---------------------------------------------------
+HOME PAGE STYLESHEET 
+----------------------------------------------------*/
+.mk-hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px;
+}
+.mk-logo h2 a{
+  font-size: 50px;
+  color: rgb(150, 146, 147);
+  font-family: 'Miltea';
+  text-transform: uppercase;
+}
+
+.mk-bottom-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.mk-bottom-btn{
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.mk-hero-content {
+  max-width: 250px;
+  text-align: center;
+}
+.mk-hero-content h1{
+  font-size: 50px;
+  color: rgb(138, 2, 37);
+  font-family: 'Miltea';
+  margin: 0;
+  line-height: 1;
+}
+.mk-hero-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'HelveticaNeueUltraLight';
+  margin: 0 0 60px;
+  line-height: 1;
+  margin-top: -10px;
+}
+.mk-hero-content p{
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 12px;
+}
+
+/* tour page */
+.mk-hero-section.mk-tour{
+  position: relative;
+  justify-content: center;
+}
+.mk-hero-section.mk-tour::before{
+  content: " ";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55%;
+  position: absolute;
+  background: linear-gradient(to bottom,  rgba(10,10,10,0) 0%,rgba(10,10,10,1) 40%,rgba(10,10,10,1) 100%); 
+}
+.mk-main-content {
+  text-align: center;
+}
+.mk-main-logo h2{
+  margin: 0;
+  line-height: 1;
+}
+.mk-main-logo h2 a{
+  font-size: 100px;
+  color: rgb(150, 146, 147);
+  font-family: 'Miltea';
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.mk-main-content h3{
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(138, 2, 37);
+  margin-bottom: 10px;
+}
+
+.mk-main-content ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mk-main-content ul li {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.mk-tour-bottom {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* contact page */
+.mk-contact-section {
+  padding: 40px;
+  background-color: #0a0a0a;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.mk-main-content {
+  text-align: center;
+}
+.mk-info {
+  margin: 40px 0;
+}
+.mk-info h4, 
+.mk-info h5{
+  margin: 0;
+  font-size: 20px;
+  font-family: 'HelveticaNeueBold';
+}
+.mk-info h5{
+  font-family: 'HelveticaNeueUltraLight';
+}
+.mk-info h5 a{
+  color: #fff;
+}
+
+.mk-info h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(138, 2, 37);
+  margin: 0;
+}

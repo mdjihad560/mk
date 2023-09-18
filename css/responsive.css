@@ -1,0 +1,25 @@
+/*For bigger screen then normal 1500px desktop*/
+
+
+
+
+/*For Tablet Layout*/
+@media (max-width: 991px) {
+
+}
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+
+
+}
+
+
+
+/*For 320-384px up Mobile Layout*/
+
+@media (max-width: 479px) {
+
+
+}
+
