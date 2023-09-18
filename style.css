@@ -83,14 +83,13 @@ a.mk-bottom-btn{
 /* tour page */
 .mk-hero-section.mk-tour{
   position: relative;
-  justify-content: center;
 }
 .mk-hero-section.mk-tour::before{
   content: " ";
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 40%;
+  height: 47%;
   position: absolute;
   background: linear-gradient(to bottom,  rgba(10,10,10,0) 0%,rgba(10,10,10,1) 40%,rgba(10,10,10,1) 100%); 
 }
@@ -114,14 +113,14 @@ a.mk-bottom-btn{
   font-weight: 400;
   text-transform: uppercase;
   color: rgb(138, 2, 37);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .mk-main-content ul{
   margin: 0;
   padding: 0;
   list-style: none;
-  height: 250px;
+  height: 450px;
   overflow-y: scroll;
 }
 
