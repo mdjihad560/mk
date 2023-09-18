@@ -36,6 +36,7 @@ HOME PAGE STYLESHEET
   justify-content: space-between;
   flex-direction: column;
   padding: 40px;
+  background-size: cover;
 }
 .mk-logo h2 a{
   font-size: 50px;
