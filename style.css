@@ -152,8 +152,6 @@ a.mk-bottom-btn{
   background-color: #0a0a0a;
   position: relative;
   height: 100vh;
-  display: flex;
-  align-items: center;
 }
 .mk-main-content {
   text-align: center;
